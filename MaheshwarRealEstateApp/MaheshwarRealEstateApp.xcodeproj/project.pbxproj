@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		A48125EF2B54DBBB00679A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48125EE2B54DBBB00679A9E /* AppDelegate.swift */; };
 		A48125F12B54DBBB00679A9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48125F02B54DBBB00679A9E /* SceneDelegate.swift */; };
-		A48125F32B54DBBB00679A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48125F22B54DBBB00679A9E /* ViewController.swift */; };
+		A48125F32B54DBBB00679A9E /* PropertyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48125F22B54DBBB00679A9E /* PropertyVC.swift */; };
 		A48125F62B54DBBB00679A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48125F42B54DBBB00679A9E /* Main.storyboard */; };
 		A48125F82B54DBBC00679A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48125F72B54DBBC00679A9E /* Assets.xcassets */; };
 		A48125FB2B54DBBC00679A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48125F92B54DBBC00679A9E /* LaunchScreen.storyboard */; };
+		A48126032B54DF3D00679A9E /* PropertyDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48126022B54DF3D00679A9E /* PropertyDetailVC.swift */; };
+		A48126052B54DFA100679A9E /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48126042B54DFA100679A9E /* Property.swift */; };
+		A48126082B54ED2900679A9E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A48126072B54ED2900679A9E /* Lottie */; };
+		A481260A2B54ED5A00679A9E /* Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = A48126092B54ED5A00679A9E /* Animation.json */; };
+		A481260C2B54EEFA00679A9E /* PropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481260B2B54EEFA00679A9E /* PropertyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A48125EB2B54DBBB00679A9E /* MaheshwarRealEstateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaheshwarRealEstateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48125EE2B54DBBB00679A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48125F02B54DBBB00679A9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A48125F22B54DBBB00679A9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A48125F22B54DBBB00679A9E /* PropertyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyVC.swift; sourceTree = "<group>"; };
 		A48125F52B54DBBB00679A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A48125F72B54DBBC00679A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48125FA2B54DBBC00679A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A48125FC2B54DBBC00679A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48126022B54DF3D00679A9E /* PropertyDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailVC.swift; sourceTree = "<group>"; };
+		A48126042B54DFA100679A9E /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		A48126092B54ED5A00679A9E /* Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animation.json; sourceTree = "<group>"; };
+		A481260B2B54EEFA00679A9E /* PropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48126082B54ED2900679A9E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +68,15 @@
 			children = (
 				A48125EE2B54DBBB00679A9E /* AppDelegate.swift */,
 				A48125F02B54DBBB00679A9E /* SceneDelegate.swift */,
-				A48125F22B54DBBB00679A9E /* ViewController.swift */,
+				A48125F22B54DBBB00679A9E /* PropertyVC.swift */,
 				A48125F42B54DBBB00679A9E /* Main.storyboard */,
 				A48125F72B54DBBC00679A9E /* Assets.xcassets */,
 				A48125F92B54DBBC00679A9E /* LaunchScreen.storyboard */,
 				A48125FC2B54DBBC00679A9E /* Info.plist */,
+				A48126022B54DF3D00679A9E /* PropertyDetailVC.swift */,
+				A48126042B54DFA100679A9E /* Property.swift */,
+				A48126092B54ED5A00679A9E /* Animation.json */,
+				A481260B2B54EEFA00679A9E /* PropertyCell.swift */,
 			);
 			path = MaheshwarRealEstateApp;
 			sourceTree = "<group>";
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = MaheshwarRealEstateApp;
+			packageProductDependencies = (
+				A48126072B54ED2900679A9E /* Lottie */,
+			);
 			productName = MaheshwarRealEstateApp;
 			productReference = A48125EB2B54DBBB00679A9E /* MaheshwarRealEstateApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = A48125E22B54DBBB00679A9E;
+			packageReferences = (
+				A48126062B54ED2900679A9E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = A48125EC2B54DBBB00679A9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +148,7 @@
 				A48125FB2B54DBBC00679A9E /* LaunchScreen.storyboard in Resources */,
 				A48125F82B54DBBC00679A9E /* Assets.xcassets in Resources */,
 				A48125F62B54DBBB00679A9E /* Main.storyboard in Resources */,
+				A481260A2B54ED5A00679A9E /* Animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48125F32B54DBBB00679A9E /* ViewController.swift in Sources */,
+				A48126052B54DFA100679A9E /* Property.swift in Sources */,
+				A48125F32B54DBBB00679A9E /* PropertyVC.swift in Sources */,
+				A481260C2B54EEFA00679A9E /* PropertyCell.swift in Sources */,
 				A48125EF2B54DBBB00679A9E /* AppDelegate.swift in Sources */,
+				A48126032B54DF3D00679A9E /* PropertyDetailVC.swift in Sources */,
 				A48125F12B54DBBB00679A9E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A48126062B54ED2900679A9E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A48126072B54ED2900679A9E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A48126062B54ED2900679A9E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A48125E32B54DBBB00679A9E /* Project object */;
 }
